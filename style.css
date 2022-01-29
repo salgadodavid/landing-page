@@ -1,5 +1,9 @@
-
-header {
+head {
+    display: flex;
+    flex-direction: column;
+    align-content: baseline;
+}
+header, footer{
     background-color: #1F2937;
 }
 
@@ -32,7 +36,7 @@ ul {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
 }
@@ -53,3 +57,47 @@ h1 {
      font-size: 18px;
      color: #F9FAF8;
  }
+
+ h2 { 
+     display: block;
+     justify-items: center;
+     
+ }
+
+ .main 
+ .bottom{
+     background-color: #F9FAF8;
+ }
+
+ .quote {
+     background-color: #E5E7EB;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+ }
+
+ .main {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 80px;
+ }
+
+.project-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.banner {
+max-width: 350px;
+max-height: auto;
+}
+
+.project-photo {
+    max-height: 350px;
+    max-width: auto;
+    border-color: 3882F6;
+    border-radius: 15px;
+}
