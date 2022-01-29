@@ -1,22 +1,5 @@
-body {
-    display: flex;
-    flex-direction: column;
-    margin: 0%;
-    flex: 1 1 20%;
 
-    
-}
-
-header, footer {
-    background-color: #1F2937;
-    
-    
-}
-
-nav { 
-    display: flex;
-    justify-content: space-around;
-}
+/* Fonts */
 
 h1, h3, ul {
     font-family: Roboto, "Times New Roman", sans-serif;
@@ -28,11 +11,11 @@ h1, h3 {
 }
 
 h3{ 
-    font-size: 24px;
+    font-size: 30px;
 }
 
 ul { 
-    font-size: 18px;
+    font-size: 30px;
     color: #E5E7EB;
     list-style-type: none;
     display: flex;
@@ -41,11 +24,34 @@ ul {
     gap: 40px;  
 }
 
+/* End Fonts */
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    flex: 1 1;   
+}
+
+header, footer {
+    background-color: #1F2937;   
+}
+
+nav { 
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+
 .portfolio {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 20%
+   
+   
 
 }
 
@@ -62,8 +68,10 @@ h1 {
 
 }
  .welcome {
-     font-size: 18px;
+     font-size: 24px;
      color: #F9FAF8;
+     padding-bottom: 30px;
+     
  }
 
  h2 { 
@@ -85,7 +93,7 @@ h1 {
      justify-content: center;
      align-items: center;
      gap: 80px;
-     flex-basis: 20%;
+     min-height: 100px;
  }
 
 .project-cont {
@@ -101,11 +109,6 @@ h1 {
 
 }
 
-.banner {
-max-width: 350px;
-max-height: auto;
-}
-
 .project-photo {
     max-height: 350px;
     max-width: auto;
@@ -114,9 +117,13 @@ max-height: auto;
 }
 
 button {
+    font-size: 24px;
+    border: 2px solid #1F2937;
     background-color: #3882F6;
     color: #f9f9f9;
-    border-radius: 6px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 8px;
     
 }
 
@@ -124,8 +131,9 @@ button {
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
-    align-content: center;
-    min-height: 500px;
+    align-content: end;
+    min-height: 150px;
+
 }
 
 .quote-container {
@@ -134,9 +142,15 @@ button {
     justify-content: center;
     flex-wrap: wrap-reverse;
     align-items:baseline;
+    
+    
 }
 h4 {
     font-size: 48px;
+    font-style: italic;
+    margin-bottom: -35px;
+
+
 }
  h5 {
      font-size: 36px;
@@ -148,38 +162,43 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 500px;
-    flex-basis: 20%;
+    padding: 70px;
 }
 
 
 .twitter-box {
+    padding: 15px;
+    font-weight: 400;
+    color: #F9FAF8;
     background-color: #3882F6;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
     border-radius: 10px;
 }
 
 
 .follow-me {
-    border: 2px #E5E7EB;
-    background-color: #E5E7EB;
-    color: #3882F6;
-    border-radius: 6px;
+    border: 2px solid #E5E7EB;
+    background-color: #3882F6;
+    font-size: 30px;
+    color: #E5E7EB;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 10px;
+
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 250px;
+    min-height: 150px;
  
 }
 
 .copyright {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 100;
     color: #F9FAF8;
 
