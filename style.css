@@ -1,10 +1,16 @@
-head {
+body {
     display: flex;
     flex-direction: column;
-    align-content: baseline;
+    margin: 0%;
+    flex: 1 1 20%;
+
+    
 }
-header, footer{
+
+header, footer {
     background-color: #1F2937;
+    
+    
 }
 
 nav { 
@@ -18,6 +24,7 @@ h1, h3, ul {
 
 h1, h3 { 
     color: #F9FAF8;
+    font-weight: 250;
 }
 
 h3{ 
@@ -34,10 +41,11 @@ ul {
     gap: 40px;  
 }
 
-.container {
+.portfolio {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-basis: 20%
 
 }
 
@@ -70,18 +78,14 @@ h1 {
      background-color: #F9FAF8;
  }
 
- .quote {
-     background-color: #E5E7EB;
-     display: flex;
-     justify-content: center;
-     align-content: center;
- }
+ 
 
  .main {
      display: flex;
      justify-content: center;
      align-items: center;
      gap: 80px;
+     flex-basis: 20%;
  }
 
 .project-cont {
@@ -91,9 +95,15 @@ h1 {
 
 }
 
+.description {
+    text-align: center; 
+    font-size: 24px;
+
+}
+
 .banner {
 max-width: 350px;
-max height: auto;
+max-height: auto;
 }
 
 .project-photo {
@@ -110,6 +120,67 @@ button {
     
 }
 
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 500px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    align-items:baseline;
+}
 h4 {
     font-size: 48px;
+}
+ h5 {
+     font-size: 36px;
+ }
+
+
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    flex-basis: 20%;
+}
+
+
+.twitter-box {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+
+.follow-me {
+    border: 2px #E5E7EB;
+    background-color: #E5E7EB;
+    color: #3882F6;
+    border-radius: 6px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+ 
+}
+
+.copyright {
+    font-size: 12px;
+    font-weight: 100;
+    color: #F9FAF8;
+
 }
